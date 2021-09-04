@@ -3,11 +3,11 @@
 @section('title', 'App blog')
 
 @section('content_header')
-    <h1>Mostrar detalle de categoria</h1>
+    <h1>Lista de usuarios</h1>
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel.</p>
+    @livewire('admin.users-index')
 @stop
 
 @section('css')
